@@ -1,7 +1,10 @@
-.n1, .n3, .n5
-{
+.n1, .n3, .n5 {
     background-color: lightpink;
     font-family: Verdana, "DejaVu Sans", sans-serif;
 
 }
 
+#n2 {
+    color: blue;
+    font-size: 36 px;
+}
