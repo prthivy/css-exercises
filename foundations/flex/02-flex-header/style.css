@@ -14,7 +14,7 @@
   justify-content:space-between;
   align-items: center;
   margin: 8px;
-  padding: 8px 4px;
+  padding: 8px 8px;
 }
 
 .logo {
@@ -29,13 +29,13 @@ ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
   display: flex;
+  gap: 8px;
 }
 
 a {
   font-size: 22px;
   background: white;
   padding: 8px;
-  margin: 4px;
   display: flex;
   /* this removes the line under the links */
   text-decoration: none;
