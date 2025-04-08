@@ -8,15 +8,22 @@
     <title>Modal</title>
   </head>
   <body>
-    <div class="modal">
-      <div class="icon">!</div>
-      <div class="text-container">
-        <div class="header">Are you sure you want to do that?</div>
+    <!-- below is the flexed class -->
+    <div class="modal"> 
+      <!-- below is flexed item 1 -->
+      <div class="icon">!</div> 
+      <!-- below is container1, we are not flexing it -->
+      <div class="container1">
+        <!-- below is flexed item 3, this one should flex the header and close button -->
+        <div class="container2">
+          <div class="header">Are you sure you want to do that?</div>
+          <button class="close-button">✖</button>
+        </div>
+        <!-- below three classes are also a part of container1 -->
         <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur excepturi id soluta, numquam minima rerum doloremque eveniet aspernatur beatae commodi. Cupiditate recusandae ad repellendus quidem consectetur sequi amet aspernatur cumque!</div>
         <button class="continue">Continue</button>
-        <button class="cancel">Cancel</button>
-      </div>
-      <button class="close-button">✖</button>
+        <button class="cancel">Cancel</button>     
+      </div>   
     </div>
   </body>
 </html>
