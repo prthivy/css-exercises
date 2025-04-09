@@ -75,8 +75,8 @@ button.cancel {
 .container2 {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin-bottom: 8px;
+  align-items: center;
   font-weight: bold;
   font-size: 18px;
 }
