@@ -14,7 +14,6 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
-
   display: flex;
   flex-direction: column;
 }
@@ -42,7 +41,6 @@ input {
   display: flex;
   padding: 16px;
   justify-content: space-between;
-  margin-bottom: auto;
 }
 
 .footer {
@@ -50,7 +48,6 @@ input {
   padding: 16px;
   justify-content: space-between;
   background-color: #eee;
-  margin-top: auto;
 }
 
 .left-links, .right-links {
@@ -72,4 +69,6 @@ a {
   flex-direction: column;
   gap: 16px;
   align-items: center;
+  flex-grow: 1;
+  justify-content: center;
 }
