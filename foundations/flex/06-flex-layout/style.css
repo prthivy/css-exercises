@@ -1,7 +1,11 @@
-*, *::after, *::before {
+*, *::before, *::after {
   box-sizing: border-box
 }
 
+* {
+  margin: 0px;
+  padding: 0px;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
@@ -10,6 +14,7 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+
   display: flex;
   flex-direction: column;
 }
@@ -22,8 +27,8 @@ button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
-  padding: 8px 16px;
   background: #eee;
+  padding: 8px 16px;
 }
 
 input {
@@ -33,51 +38,38 @@ input {
   width: 400px;
 }
 
-/* i wonder if in the header and footer below,
-there was a better way to stick those elements and top and bot resp */
-
 .header {
   display: flex;
-  justify-content: space-between;
   padding: 16px;
+  justify-content: space-between;
   margin-bottom: auto;
 }
 
 .footer {
   display: flex;
-  justify-content: space-between;
   padding: 16px;
-  margin-top: auto; 
+  justify-content: space-between;
+  background-color: #eee;
+  margin-top: auto;
 }
 
 .left-links, .right-links {
   display: flex;
-  justify-content: space-between;
   gap: 16px;
-}
-
-.footer {
-  background-color: #eeeeee;
 }
 
 ul {
   list-style-type: none;
-  gap: 16px;
-  margin: 0px;
-  padding: 0px;
 }
 
 a {
-  color: #666;
   text-decoration: none;
+  color: #666;
 }
-
-/* this thing below is the main ingredient 
-in that vertical centering */
 
 .content {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 16px;
+  align-items: center;
 }
